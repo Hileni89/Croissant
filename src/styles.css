@@ -1,5 +1,8 @@
 body {
   background-color: rgb(239, 166, 137);
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
 }
 h1 {
   text-align: center;
@@ -10,11 +13,12 @@ p {
 }
 .links {
   display: flex;
-  justify-content: space-evenly;
   padding: 20px;
+  justify-content: center;
 }
 a {
   color: rgb(108, 14, 110);
+  margin-right: 30px;
 }
 img {
   max-width: 100%;
